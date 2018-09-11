@@ -1,0 +1,31 @@
+{
+  "name": "okam-plugin-wx2swan",
+  "version": "1.0.0",
+  "description": "weixin to swan for okam(small program framework)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-only/okam-plugin-wx2swan.git"
+  },
+  "keywords": [
+    "okam",
+    "plugin",
+    "swan",
+    "weixin",
+    "mini",
+    "program",
+    "wx2swan"
+  ],
+  "author": "xiaohong8023@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-only/okam-plugin-wx2swan/issues"
+  },
+  "homepage": "https://github.com/The-only/okam-plugin-wx2swan#readme",
+  "dependencies": {
+    "wx2swan": "^1.1.5"
+  }
+}

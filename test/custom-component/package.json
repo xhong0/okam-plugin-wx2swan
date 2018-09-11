@@ -1,0 +1,22 @@
+{
+  "name": "custom-component",
+  "version": "1.0.0",
+  "description": "custom-component example test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "ln -s ../../../../../icode/okam/packages/okam-build node_modules && ln -s ../../../../../icode/okam/packages/okam-core node_modules",
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && NODE_ENV=dev node scripts/build.js",
+    "dev:debug": "NODE_ENV=dev node --inspect-brk scripts/build.js --watch",
+    "dev": "NODE_ENV=dev node scripts/build.js --watch",
+    "dev:clean": "NODE_ENV=dev node scripts/build.js --watch --clean"
+  },
+  "devDependencies": {
+    "okam-build": "0.1.0-alpha.9",
+    "okam-core": "0.1.0-alpha.8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
